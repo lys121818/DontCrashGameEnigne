@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="DCWindow.h" />
+    <ClInclude Include="DC_SDLWindow.h">
+      <Filter>SDL\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="DC_SDLWindow.cpp">
+      <Filter>SDL\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{c4b9218a-0d11-42fe-b553-4a11d6e6bdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{bd929dfe-d163-4dfa-831e-9492ebf90448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\Window">
+      <UniqueIdentifier>{204d3922-155c-44e5-9468-9eeb7e3c9b50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
